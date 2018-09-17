@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B2F5E611CD4A1F000449325 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2F5E601CD4A1F000449325 /* AppDelegate.swift */; };
+		2B2F5E631CD4A1F000449325 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2F5E621CD4A1F000449325 /* ViewController.swift */; };
+		2B2F5E651CD4A1F000449325 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B2F5E641CD4A1F000449325 /* Assets.xcassets */; };
+		2B2F5E681CD4A1F000449325 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B2F5E661CD4A1F000449325 /* Main.storyboard */; };
+		2B2F5E731CD4A1F000449325 /* noflyzoneturkeyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2F5E721CD4A1F000449325 /* noflyzoneturkeyTests.swift */; };
+		2B2F5E7E1CD4A1F000449325 /* noflyzoneturkeyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2F5E7D1CD4A1F000449325 /* noflyzoneturkeyUITests.swift */; };
+		2B2F5E8C1CD4A48800449325 /* airport.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2F5E8B1CD4A48800449325 /* airport.png */; };
+		2B2F5E8E1CD4A54500449325 /* PISTLER.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2B2F5E8D1CD4A54500449325 /* PISTLER.txt */; };
+		2B2F5E901CD4A6F800449325 /* airports.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2B2F5E8F1CD4A6F800449325 /* airports.txt */; };
+		2B90C7861CD4BCD00024A7DC /* kb.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2B90C7851CD4BCD00024A7DC /* kb.txt */; };
+		2BDF85951CD4ACE0004C3E34 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BDF85941CD4ACE0004C3E34 /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B2F5E6F1CD4A1F000449325 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B2F5E551CD4A1F000449325 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B2F5E5C1CD4A1F000449325;
+			remoteInfo = noflyzoneturkey;
+		};
+		2B2F5E7A1CD4A1F000449325 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B2F5E551CD4A1F000449325 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B2F5E5C1CD4A1F000449325;
+			remoteInfo = noflyzoneturkey;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B2F5E5D1CD4A1F000449325 /* noflyzoneturkey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = noflyzoneturkey.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B2F5E601CD4A1F000449325 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2B2F5E621CD4A1F000449325 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2B2F5E641CD4A1F000449325 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B2F5E671CD4A1F000449325 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B2F5E691CD4A1F000449325 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B2F5E6E1CD4A1F000449325 /* noflyzoneturkeyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = noflyzoneturkeyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B2F5E721CD4A1F000449325 /* noflyzoneturkeyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = noflyzoneturkeyTests.swift; sourceTree = "<group>"; };
+		2B2F5E741CD4A1F000449325 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B2F5E791CD4A1F000449325 /* noflyzoneturkeyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = noflyzoneturkeyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B2F5E7D1CD4A1F000449325 /* noflyzoneturkeyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = noflyzoneturkeyUITests.swift; sourceTree = "<group>"; };
+		2B2F5E7F1CD4A1F000449325 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B2F5E8B1CD4A48800449325 /* airport.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = airport.png; sourceTree = "<group>"; };
+		2B2F5E8D1CD4A54500449325 /* PISTLER.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PISTLER.txt; sourceTree = "<group>"; };
+		2B2F5E8F1CD4A6F800449325 /* airports.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = airports.txt; sourceTree = "<group>"; };
+		2B90C7851CD4BCD00024A7DC /* kb.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = kb.txt; sourceTree = "<group>"; };
+		2BDF85941CD4ACE0004C3E34 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		2BDF85961CD4ACE0004C3E34 /* noflyzoneturkey.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = noflyzoneturkey.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B2F5E5A1CD4A1F000449325 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BDF85951CD4ACE0004C3E34 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B2F5E6B1CD4A1F000449325 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B2F5E761CD4A1F000449325 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B2F5E541CD4A1F000449325 = {
+			isa = PBXGroup;
+			children = (
+				2BDF85941CD4ACE0004C3E34 /* MapKit.framework */,
+				2B2F5E5F1CD4A1F000449325 /* noflyzoneturkey */,
+				2B2F5E711CD4A1F000449325 /* noflyzoneturkeyTests */,
+				2B2F5E7C1CD4A1F000449325 /* noflyzoneturkeyUITests */,
+				2B2F5E5E1CD4A1F000449325 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B2F5E5E1CD4A1F000449325 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B2F5E5D1CD4A1F000449325 /* noflyzoneturkey.app */,
+				2B2F5E6E1CD4A1F000449325 /* noflyzoneturkeyTests.xctest */,
+				2B2F5E791CD4A1F000449325 /* noflyzoneturkeyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B2F5E5F1CD4A1F000449325 /* noflyzoneturkey */ = {
+			isa = PBXGroup;
+			children = (
+				2BDF85961CD4ACE0004C3E34 /* noflyzoneturkey.entitlements */,
+				2B90C7851CD4BCD00024A7DC /* kb.txt */,
+				2B2F5E8F1CD4A6F800449325 /* airports.txt */,
+				2B2F5E8D1CD4A54500449325 /* PISTLER.txt */,
+				2B2F5E8B1CD4A48800449325 /* airport.png */,
+				2B2F5E601CD4A1F000449325 /* AppDelegate.swift */,
+				2B2F5E621CD4A1F000449325 /* ViewController.swift */,
+				2B2F5E641CD4A1F000449325 /* Assets.xcassets */,
+				2B2F5E661CD4A1F000449325 /* Main.storyboard */,
+				2B2F5E691CD4A1F000449325 /* Info.plist */,
+			);
+			path = noflyzoneturkey;
+			sourceTree = "<group>";
+		};
+		2B2F5E711CD4A1F000449325 /* noflyzoneturkeyTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B2F5E721CD4A1F000449325 /* noflyzoneturkeyTests.swift */,
+				2B2F5E741CD4A1F000449325 /* Info.plist */,
+			);
+			path = noflyzoneturkeyTests;
+			sourceTree = "<group>";
+		};
+		2B2F5E7C1CD4A1F000449325 /* noflyzoneturkeyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2B2F5E7D1CD4A1F000449325 /* noflyzoneturkeyUITests.swift */,
+				2B2F5E7F1CD4A1F000449325 /* Info.plist */,
+			);
+			path = noflyzoneturkeyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B2F5E5C1CD4A1F000449325 /* noflyzoneturkey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B2F5E821CD4A1F000449325 /* Build configuration list for PBXNativeTarget "noflyzoneturkey" */;
+			buildPhases = (
+				2B2F5E591CD4A1F000449325 /* Sources */,
+				2B2F5E5A1CD4A1F000449325 /* Frameworks */,
+				2B2F5E5B1CD4A1F000449325 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = noflyzoneturkey;
+			productName = noflyzoneturkey;
+			productReference = 2B2F5E5D1CD4A1F000449325 /* noflyzoneturkey.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B2F5E6D1CD4A1F000449325 /* noflyzoneturkeyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B2F5E851CD4A1F000449325 /* Build configuration list for PBXNativeTarget "noflyzoneturkeyTests" */;
+			buildPhases = (
+				2B2F5E6A1CD4A1F000449325 /* Sources */,
+				2B2F5E6B1CD4A1F000449325 /* Frameworks */,
+				2B2F5E6C1CD4A1F000449325 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B2F5E701CD4A1F000449325 /* PBXTargetDependency */,
+			);
+			name = noflyzoneturkeyTests;
+			productName = noflyzoneturkeyTests;
+			productReference = 2B2F5E6E1CD4A1F000449325 /* noflyzoneturkeyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2B2F5E781CD4A1F000449325 /* noflyzoneturkeyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B2F5E881CD4A1F000449325 /* Build configuration list for PBXNativeTarget "noflyzoneturkeyUITests" */;
+			buildPhases = (
+				2B2F5E751CD4A1F000449325 /* Sources */,
+				2B2F5E761CD4A1F000449325 /* Frameworks */,
+				2B2F5E771CD4A1F000449325 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B2F5E7B1CD4A1F000449325 /* PBXTargetDependency */,
+			);
+			name = noflyzoneturkeyUITests;
+			productName = noflyzoneturkeyUITests;
+			productReference = 2B2F5E791CD4A1F000449325 /* noflyzoneturkeyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B2F5E551CD4A1F000449325 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Koray Birand";
+				TargetAttributes = {
+					2B2F5E5C1CD4A1F000449325 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = XQ284ZEU8W;
+						LastSwiftMigration = 0830;
+						SystemCapabilities = {
+							com.apple.Maps.Mac = {
+								enabled = 1;
+							};
+						};
+					};
+					2B2F5E6D1CD4A1F000449325 = {
+						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0830;
+						TestTargetID = 2B2F5E5C1CD4A1F000449325;
+					};
+					2B2F5E781CD4A1F000449325 = {
+						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0830;
+						TestTargetID = 2B2F5E5C1CD4A1F000449325;
+					};
+				};
+			};
+			buildConfigurationList = 2B2F5E581CD4A1F000449325 /* Build configuration list for PBXProject "noflyzoneturkey" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B2F5E541CD4A1F000449325;
+			productRefGroup = 2B2F5E5E1CD4A1F000449325 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B2F5E5C1CD4A1F000449325 /* noflyzoneturkey */,
+				2B2F5E6D1CD4A1F000449325 /* noflyzoneturkeyTests */,
+				2B2F5E781CD4A1F000449325 /* noflyzoneturkeyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B2F5E5B1CD4A1F000449325 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B2F5E8E1CD4A54500449325 /* PISTLER.txt in Resources */,
+				2B2F5E8C1CD4A48800449325 /* airport.png in Resources */,
+				2B2F5E901CD4A6F800449325 /* airports.txt in Resources */,
+				2B90C7861CD4BCD00024A7DC /* kb.txt in Resources */,
+				2B2F5E651CD4A1F000449325 /* Assets.xcassets in Resources */,
+				2B2F5E681CD4A1F000449325 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B2F5E6C1CD4A1F000449325 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B2F5E771CD4A1F000449325 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B2F5E591CD4A1F000449325 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B2F5E631CD4A1F000449325 /* ViewController.swift in Sources */,
+				2B2F5E611CD4A1F000449325 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B2F5E6A1CD4A1F000449325 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B2F5E731CD4A1F000449325 /* noflyzoneturkeyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B2F5E751CD4A1F000449325 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B2F5E7E1CD4A1F000449325 /* noflyzoneturkeyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B2F5E701CD4A1F000449325 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B2F5E5C1CD4A1F000449325 /* noflyzoneturkey */;
+			targetProxy = 2B2F5E6F1CD4A1F000449325 /* PBXContainerItemProxy */;
+		};
+		2B2F5E7B1CD4A1F000449325 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B2F5E5C1CD4A1F000449325 /* noflyzoneturkey */;
+			targetProxy = 2B2F5E7A1CD4A1F000449325 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2B2F5E661CD4A1F000449325 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B2F5E671CD4A1F000449325 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B2F5E801CD4A1F000449325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				"SWIFT_VERSION[arch=*]" = "";
+			};
+			name = Debug;
+		};
+		2B2F5E811CD4A1F000449325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		2B2F5E831CD4A1F000449325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = noflyzoneturkey/noflyzoneturkey.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = noflyzoneturkey/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.koraybirand.noflyzoneturkey;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2B2F5E841CD4A1F000449325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = noflyzoneturkey/noflyzoneturkey.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = noflyzoneturkey/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.koraybirand.noflyzoneturkey;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2B2F5E861CD4A1F000449325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = noflyzoneturkeyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.koraybirand.noflyzoneturkeyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/noflyzoneturkey.app/Contents/MacOS/noflyzoneturkey";
+			};
+			name = Debug;
+		};
+		2B2F5E871CD4A1F000449325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = noflyzoneturkeyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.koraybirand.noflyzoneturkeyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/noflyzoneturkey.app/Contents/MacOS/noflyzoneturkey";
+			};
+			name = Release;
+		};
+		2B2F5E891CD4A1F000449325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = noflyzoneturkeyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.koraybirand.noflyzoneturkeyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = noflyzoneturkey;
+			};
+			name = Debug;
+		};
+		2B2F5E8A1CD4A1F000449325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = noflyzoneturkeyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.koraybirand.noflyzoneturkeyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = noflyzoneturkey;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B2F5E581CD4A1F000449325 /* Build configuration list for PBXProject "noflyzoneturkey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B2F5E801CD4A1F000449325 /* Debug */,
+				2B2F5E811CD4A1F000449325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B2F5E821CD4A1F000449325 /* Build configuration list for PBXNativeTarget "noflyzoneturkey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B2F5E831CD4A1F000449325 /* Debug */,
+				2B2F5E841CD4A1F000449325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B2F5E851CD4A1F000449325 /* Build configuration list for PBXNativeTarget "noflyzoneturkeyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B2F5E861CD4A1F000449325 /* Debug */,
+				2B2F5E871CD4A1F000449325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B2F5E881CD4A1F000449325 /* Build configuration list for PBXNativeTarget "noflyzoneturkeyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B2F5E891CD4A1F000449325 /* Debug */,
+				2B2F5E8A1CD4A1F000449325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B2F5E551CD4A1F000449325 /* Project object */;
+}
